@@ -1,0 +1,3 @@
+Value: one of the basic units of data. (number, String) 
+Type: Category of Value
+Type Example: bool, int, float, str, None

@@ -43,4 +43,17 @@ full_name2 = f"{first_name.upper()} {last_name.upper()}" #QI WA
 print(full_name)
 print(full_name2)
 
+print('I\'m looking for a job')   #\' is put a ' in output 
+
+#function for string
+#      012345678910
+str = 'Hello World'
+print(str)
+print(str+'Hi') # ->Hello WorldHi
+print(str*2)    #Hello WorldHelloWorld
+print(str[0:-1])#Hello Worl      output first until the last second
+print(str[0])   #H
+print(str[2:7]) #llo W
+print(str[2:])  #llo World
+
 
