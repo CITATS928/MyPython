@@ -1,0 +1,6 @@
+four collection data types
+
+List                ordered and changeable                                          Allows duplicate
+Tuple               ordered and unchangeable                                        Allows duplicate
+Set                 unordered, unchangeable*(can add/remove), and unindexed.        No duplicate
+Dictionary          ordered** and changeable                                        No duplicate

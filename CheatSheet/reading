@@ -1,0 +1,17 @@
+In [1]: a = "foo"
+
+In [2]: a.<Press Tab>
+capitalize() index()        isspace()      removesuffix()  startswith()
+casefold()   isprintable()  istitle()      replace()       strip()
+center()     isalnum()      isupper()      rfind()         swapcase()
+count()      isalpha()      join()         rindex()        title()
+encode()     isascii()      ljust()        rjust()         translate()
+endswith()   isdecimal()    lower()        rpartition()
+expandtabs() isdigit()      lstrip()       rsplit()
+find()       isidentifier() maketrans()    rstrip()
+format()     islower()      partition()    split()
+format_map() isnumeric()    removeprefix() splitlines()
+
+
+In [32]: getattr(a, "split")
+Out[32]: <function str.split(sep=None, maxsplit=-1)>
