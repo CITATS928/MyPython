@@ -1,0 +1,88 @@
+Items are ordered, changeable, and doesn't allow duplicate
+duplicate value will overwrite existing value
+
+Cteate dict
+dict_example = {
+    "key" : "value"
+    "key1" : "value2"
+}
+print("key")    #"value"
+
+dict() function
+Empty_dict = dict(key = "value", key2 = 100)
+
+
+Add / Change item to dict
+dict_example = {
+    "key" : "value"
+    "key1" : "value2"
+}
+dict_example["newKey"] = "newValue"
+
+dict_example["key1"] = "changedValue1"
+dict_example.update({"key":ChangedValue})
+
+
+Remove Item
+dict_example = {
+    "key" : "value"
+    "key1" : "value2"
+}
+dict_example.pop("key1")
+print(dict_example)     #{"key" : "value"}
+dict_example.popitem()      removes the last inserted item
+
+del dict_example["key"]     delete specified key and value
+del dict_example            delete whole dict
+
+dict_example.clear()        empty the dict
+
+
+Check if key exists
+if "key1" in dict_example:
+    doSomeThing
+
+
+
+Get value from dict
+dict_example = {
+    "key" : "value"
+    "key1" : "value1"
+}
+x=dict_example = ("key")    #"value"
+
+x=dict_example.get("key1")  #"value1"
+
+
+Get list of the keys:
+dict_example.keys()
+
+Get list of the values:
+dict_example.values()
+
+
+LOOP
+Print all key in the dictionary:
+for x in thisdict:
+  print(x)
+
+Print all values in the dictionary:
+for x in thisdict:
+  print(thisdict[x])
+
+return values of a dictionary:
+for x in thisdict.values():
+  print(x)
+
+return keys of a dictionary:
+for x in thisdict.keys():
+  print(x)
+
+Loop through both keys and values, using items() method:
+for x, y in thisdict.items():
+  print(x, y)
+
+
+dict_example.copy()     copy the whole dict
+
+
