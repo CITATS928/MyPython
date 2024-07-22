@@ -1,8 +1,6 @@
-#Ask user to input the name
-name = input("whats your name?")   #input always input a String
-"""
-output
-welcome info
-"""
-print(f"Hello, {name}")
-print("Have a nice day.")
+n = int(input())
+result = ""
+for n in range(1,n+1):
+    temp=f"{n}"
+    result+temp
+print(result)
